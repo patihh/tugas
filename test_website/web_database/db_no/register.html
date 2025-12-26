@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Register | Arrakasta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar" style="background-color: #e75480;">
+        <a href="" class="arr"><b>ARRAKASTA</b></a>
+        <div class="log-back">
+            <a href="login.html" class="log-div">
+                <b>Login</b>
+            </a>
+        </div>
+        <div class="log-back">
+            <a href="register.html" class="log-div">
+                <b>Register</b>
+            </a>
+        </div>
+    </div>
+    <div style="width: 100%; height: 100%; background-color: #ffb6c1; position: absolute; display: flex; justify-content: center;">
+        <div class="log-box">
+            <div style="margin-top: 30px; margin-bottom: 10px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <b>Register</b>
+                <p>Sudah mempunyai akun? <a href="login.html" class="login">Log In</a></p>
+            </div>
+            <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                <div style="width: 80%">
+                    <form action="data.php" method="post">
+                        <b>Name *</b><input type="text" name="name" class="input" required><br>
+                        <b>Email *</b><input type="email" name="email" class="input" required><br>
+                        <b>Password *</b><input type="password" name="password" class="input" required><br>
+                        <input type="submit" name="register" class="register" value="Register">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar" style="background-color: #ffb6c1; position: fixed; bottom: 0;">
+        <p style="font-size: 15px;">Copyright © 2024 <a href="https://arrakastagirl.com/" class="foot-text">Arrakasta</a></p>
+    </div>
+</body>
+</html>
