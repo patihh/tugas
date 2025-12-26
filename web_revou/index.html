@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Trusted Travel Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav>
+                <p>moqups</p>
+                <table>
+                    <tr>
+                        <td>Home</td>
+                        <td>Our Package</td>
+                        <td>Call Us</td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+    
+        <div class="introduction">
+            <h1>Your Trusted Travel Agent's</h1>
+            <p>Your happiness is our happiness</p>
+        </div>
+    
+        <div class="content">
+            <div class="information">
+                <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Raja_Ampat%2C_Mutiara_Indah_di_Timur_Indonesia.jpg" alt="Sample Images" width="100%">
+                <p><i>"Liburan jadi menyenangkan bersama Travel Agentku."</i></p>
+                <div class="profile">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" alt="Profile Icon">
+                    <div class="identity">
+                        <p>Florence Hughes</p>
+                        <p><i>Ibu Rumah Tangga, 28</i></p>
+                    </div>
+                </div>
+                <hr><br>
+                <b>Benefits of Using Our Services:</b>
+                <div class="feature">
+                    <ol>
+                        <li>
+                            Worry-Free Vacation <br>
+                            Enjoy your dream trip without stress, as we take care of every detail of your trip from booking tickets, accommodation, to transportation, so you can focus on enjoying your vacation with peace of mind.
+                        </li> <br>
+                        <li>
+                            Flexible Vacation Package Options<br>
+                            We offer a variety of vacation package options that can be tailored to your needs and budget, from family vacations to solo adventures, giving you the freedom to choose as you wish.
+                        </li> <br>
+                        <li>
+                            24/7 Customer Service<br>
+                            With customer service ready to assist you at any time, you will always feel supported and safe during your trip. We are here to ensure your travel experience runs smoothly, from start to finish.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact-content">
+                    <p><b>Contact Us</b></p>
+                    <p class="contact-desc">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                    <form class="form" name="form" onsubmit="validateForm(event)">
+                        <label for="name">Your Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="First and last name"><br><br>
+                        <label for="email">Email Address:</label><br>
+                        <input type="text" id="email" name="email" placeholder="example@email.com"><br><br>
+                        <label for="interest">What are you interested in?</label><br>
+                        <select name="interest">
+                            <option value="" disabled selected>Select option</option>
+                            <option value="mountains">Mountains</option>
+                            <option value="beach">Beach</option>
+                            <option value="nature">Nature</option>
+                        </select> <br> <br>
+                        <input type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
