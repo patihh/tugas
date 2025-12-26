@@ -1,0 +1,88 @@
+.body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.teks-hover {
+    color: black;
+    transition: color 0.5s;
+    white-space: nowrap;
+}
+
+.teks-hover:hover {
+    color: #0a4c85;
+}
+
+.berita {
+    height: 196px;
+}
+
+.berita img {
+    border-radius: 5px;
+    width: 200px;
+    height: 110px;
+}
+
+.berita-2 {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 30px;
+}
+
+.berita-2 img {
+    border-radius: 5px;
+    width: 238px;
+    height: 160px;
+}
+
+.tag {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    font-size: 13px;
+    width: 5px; 
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.balok {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: black
+}
+
+.iklan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 728px;
+    height: 305px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.iklan:hover {
+    opacity:1;
+}
